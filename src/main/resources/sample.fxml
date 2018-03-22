@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Label fx:id="Kraj" text="Miasto:" GridPane.rowIndex="2" />
+      <Label text="Temperatura w Celcjuszach" GridPane.rowIndex="3" />
+      <Label fx:id="LabelCityValue" text="FARFARAWAY" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label fx:id="LabelTemperatureValue" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label fx:id="Tempera" text="Temperatura w Kelvinach" GridPane.rowIndex="4" />
+      <Label fx:id="LabelKelvinTemperatureValue" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label text="Podaj miasto:" GridPane.rowIndex="1" />
+      <TextField fx:id="TextFieldCity" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button fx:id="ButtonRun" mnemonicParsing="false" prefHeight="25.0" prefWidth="143.0" text="Szukaj" GridPane.rowIndex="7" />
+      <Label text="CIśnienie Powietrza" GridPane.rowIndex="5" />
+      <Label fx:id="LabelPressureValue" text="0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Button fx:id="ButtonClose" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Zamknij" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <Label text="Kraj" GridPane.rowIndex="6" />
+      <Label fx:id="LabelCountryValue" text="Earth" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+   </children>
+</GridPane>

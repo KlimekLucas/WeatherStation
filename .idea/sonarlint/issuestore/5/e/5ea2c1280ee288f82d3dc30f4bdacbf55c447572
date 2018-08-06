@@ -1,0 +1,25 @@
+
+1squid:S1643"Use a StringBuilder instead.(Àù’³
+1squid:S1643"Use a StringBuilder instead.(Àù’³
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+Fsquid:S1068",Remove this unused "pressure" private field.(œ‚ËÒúÿÿÿÿ
+nsquid:S1450"TRemove the "tempC" field and declare it as a local variable in the relevant methods.(œÕ÷ƒúÿÿÿÿ
+nsquid:S1450"TRemove the "tempK" field and declare it as a local variable in the relevant methods.(ƒŒÞÛüÿÿÿÿ
+psquid:S1450"VRemove the "country" field and declare it as a local variable in the relevant methods.(“—àÊúÿÿÿÿ
+qsquid:S1450"WRemove the "pressure" field and declare it as a local variable in the relevant methods.(œ‚ËÒúÿÿÿÿ
+{squid:S4165"aRemove this useless assignment; "url" already holds the assigned value along all execution paths.(Ü¹ï³ÿÿÿÿÿ
+{squid:S4165"aRemove this useless assignment; "url" already holds the assigned value along all execution paths.(Ü¹ï³ÿÿÿÿÿ
+\squid:HiddenFieldCheck"7Rename "obj" which hides the field declared at line 15.(ìðãßüÿÿÿÿ
+\squid:HiddenFieldCheck"7Rename "obj" which hides the field declared at line 15.(ìðãßüÿÿÿÿ
+\squid:HiddenFieldCheck"<Rename "pressure" which hides the field declared at line 20.(òûâ¥
+nsquid:S00116"SRename this field "CityName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÆçÕþÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âµçš
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßñ˜
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âµçš
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úúŠÄûÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ÊÂù¢þÿÿÿÿ
+Usquid:UselessImportCheck".Remove this unused import 'sample.Controller'.(‚œüëøÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+:squid:S2129" Remove this "String" constructor(îâ–Êþÿÿÿÿ
+:squid:S2129" Remove this "String" constructor(îâ–Êþÿÿÿÿ

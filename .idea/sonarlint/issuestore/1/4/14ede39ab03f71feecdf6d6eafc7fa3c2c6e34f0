@@ -1,0 +1,10 @@
+
+tsquid:S00116"YRename this field "LabelCityValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êêàùøÿÿÿÿ
+|squid:S00116"fRename this field "LabelKelvinTemperatureValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôºñÎ
+{squid:S00116"`Rename this field "LabelTemperatureValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öõö«ýÿÿÿÿ
+xsquid:S00116"]Rename this field "LabelPressureValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë‹³¾ýÿÿÿÿ
+wsquid:S00116"\Rename this field "LabelCountryValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…€éŸýÿÿÿÿ
+ssquid:S00116"XRename this field "TextFieldCity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ‹µ¢ÿÿÿÿÿ
+osquid:S00116"TRename this field "ButtonRun" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µŠ«Ëþÿÿÿÿ
+lsquid:S00116"VRename this field "ButtonClose" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ ¼«
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

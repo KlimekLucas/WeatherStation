@@ -1,19 +1,14 @@
 package sample;
 
 import WatherApp.Repository;
-import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.stage.Window;
-import org.json.JSONObject;
+
 
 import java.io.IOException;
-import java.net.URL;
-import java.util.Scanner;
-import java.util.concurrent.atomic.AtomicReference;
+
 
 public class Controller {
 
@@ -53,9 +48,10 @@ ButtonClose.setOnAction(event -> System.exit(0));
 ButtonRun.setOnAction(event ->{
     Repository repository = null;
     try {
-        repository = new Repository();
+        repository = new Repository(TextFieldCity.getText());
     } catch (IOException e) {
         e.printStackTrace();
+        TextFieldCity.setText("podane miasto nie istnieje");
     }
 
     LabelKelvinTemperatureValue.setText(String.valueOf(repository.getKTemp()));

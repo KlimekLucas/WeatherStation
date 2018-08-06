@@ -10,20 +10,20 @@ import java.util.Scanner;
 
 public class Repository {
 
-   private String NETKEY ;
+
    private URL url;
    private JSONObject obj;
    private String CityName;
    private Double tempC;
    private Double tempK;
    private String country;
-   private Integer pressure;
+   private String pressure;
 
 
 
     public Repository() throws IOException {
         try {
-            url = new URL("http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=b6907d289e10d714a6e88b30761fae22");
+            url = new URL("http://api.openweathermap.org/data/2.5/weather?q="+CityName+"&APPID=35369546d7d07fd5a1d2e987269cac56");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
@@ -35,7 +35,7 @@ public class Repository {
             str += scan.nextLine();
         scan.close();
 
-        // build a JSON object
+
         JSONObject obj = new JSONObject(str);
         this.obj = obj;
 
@@ -44,9 +44,9 @@ public class Repository {
 
 
 
-    public Repository(String cityName,String NETKEY) throws IOException {
+    public Repository(String cityName) throws IOException {
         try {
-            url = new URL("http://api.openweathermap.org/data/2.5/weather?q="+cityName+"&APPID="+NETKEY);
+            url = new URL("http://api.openweathermap.org/data/2.5/weather?q="+cityName+"&APPID=35369546d7d07fd5a1d2e987269cac56");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
@@ -58,14 +58,14 @@ public class Repository {
             str += scan.nextLine();
         scan.close();
 
-        // build a JSON object
+
         JSONObject obj = new JSONObject(str);
         this.obj = obj;
 
         CityName = cityName;
     }
 
-    ///////////////////////////////////// gettery//////////////////////
+
 
 
 
@@ -102,8 +102,8 @@ public class Repository {
 
     }
 
-    public Integer getPressure() {
-        Integer pressure = (Integer) obj.getJSONObject("main").get("pressure");
+    public String getPressure() {
+        String pressure = String.valueOf (obj.getJSONObject("main").get("pressure"));
         this.pressure = pressure;
         return pressure;
     }
